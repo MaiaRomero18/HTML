@@ -1,0 +1,112 @@
+:root {
+  --color1: rgb(#f8b78be3);
+  --color2: #494644;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: var(--color1);
+  background-color: hsl(206deg, 50%, 48%);
+}
+
+.conteiner {
+  display: table-footer-group;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 328px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.card-header {
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
+}
+.card-body {
+  border-bottom: 1px solid var(--color2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body-contentimg {
+  border: 5px solid #F8B78B;
+  border-radius: 50%;
+  background-color: #f8b385;
+  box-shadow: 0px -10px 20px #F8B78B;
+  margin-top: -58px;
+}
+.card-body-contentimg-img {
+  padding: 20px 20px 20px 40px;
+}
+.card-body-title {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.card-body-title span {
+  color: var(--color2);
+}
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.card-footer-poder {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.card-footer-resistencia {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.card-footer-bonus {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}/*# sourceMappingURL=style.css.map */

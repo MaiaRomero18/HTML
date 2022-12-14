@@ -1,0 +1,12 @@
+*{
+    background-color: antiquewhite;
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
